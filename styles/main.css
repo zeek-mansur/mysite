@@ -1,0 +1,20 @@
+.about_title {
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+/* https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page */
+
+.content-center {
+
+    width: 300px; 
+    margin:0 auto;
+}
+
+.header_title {
+
+    color: white;
+    font-size: 30px;
+
+}
