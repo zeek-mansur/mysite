@@ -18,3 +18,18 @@
     font-size: 30px;
 
 }
+
+.contact_me {
+
+    font-size: 60px;
+    color: white;
+    text-align: center;
+    vertical-align: bottom;
+    text-decoration: none;
+    background-position: center;
+    margin: auto;
+    display: block;
+    position: relative;
+    padding-top: 250px;
+
+}
