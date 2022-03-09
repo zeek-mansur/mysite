@@ -3,9 +3,15 @@
     color: white;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
+    
 
 }
 /* https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page */
+
+.about_section{
+
+    margin-top: 50%;
+}
 
 .content-center {
 
@@ -15,16 +21,20 @@
 
 .header_title {
 
-    color: white;
-    font-size: 30px;
+    color: rgb(231, 231, 245);
+    font-size: 40px;
+    font-family: cursive;
+    font-weight: bolder;
 
 }
 
-.work_expirience {
+.Work_expirience {
 
     color:black;
     font-size: 30px;
     font-weight: bolder;
+    padding-top: 2cm;
+    color: white;
 
 }
 
@@ -39,7 +49,7 @@
     margin: auto;
     display: block;
     position: relative;
-    padding-top: 250px;
+    margin-top: 50%;
     text-align: center;
 
 }
@@ -59,5 +69,35 @@
     height: fit-content;
 }
 
+.portfolio_title{
 
+    margin-left: 20%;
+    color: white;
+    padding-top: 2cm;
+}
 
+.h4{
+
+    font-family: 'Courier New', Courier, monospace;
+    color: #FFFFFF;
+}
+/* https://stackoverflow.com/questions/2789703/remove-blue-underline-from-link */
+a:hover, a:visited, a:link, a:active {
+
+    text-decoration: none!important;
+
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important;}
+
+    .form{
+
+        padding-top: 2cm;
+        padding-bottom: 2cm;
+        color: white;
+    }
+
+    .contact_inform{
+
+        padding-top: 2cm;
+        color: white;
+    }
