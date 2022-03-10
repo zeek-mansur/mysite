@@ -1,3 +1,11 @@
+
+.nav-image {
+    background-image: url('images/Webp.net-resizeimage\ \(7\).jpg');
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    background-position:center; 
+    height: 600px;}
+
 .about_title {
 
     color: white;
@@ -8,15 +16,16 @@
 }
 /* https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page */
 
-.about_section{
+.about-section{
 
-    margin-top: 50%;
+    padding-top: 50%;
 }
 
 .content-center {
 
     width: 300px; 
     margin:0 auto;
+    text-align: center;
 }
 
 .header_title {
@@ -28,6 +37,11 @@
 
 }
 
+.work-heading{
+
+    text-align: center;
+}
+
 .Work_expirience {
 
     color:black;
@@ -36,6 +50,11 @@
     padding-top: 2cm;
     color: white;
 
+}
+
+.portfolio-heading{
+
+    text-align: center;
 }
 
 .contact_me {
@@ -74,6 +93,7 @@
     margin-left: 20%;
     color: white;
     padding-top: 2cm;
+
 }
 
 .h4{
@@ -100,4 +120,30 @@ a:hover, a:visited, a:link, a:active {
 
         padding-top: 2cm;
         color: white;
+    }
+
+    .svg-align{
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    /*
+    https://stackoverflow.com/questions/30526822/bootstrap-how-to-center-align-content-inside-column
+    */
+    .center-block {
+        margin-left:auto;
+        margin-right:auto;
+        display:block;
+    
+     }
+/*
+     .text-center {
+        text-align: justify;
+     }
+     */
+
+    .image-fluid{
+        max-width: 100%;
+        height: auto;
     }
