@@ -14,9 +14,17 @@
     
 
 }
+
+.about-section {
+
+    height: 600px; 
+    background-color:black;
+    color: white;
+    
+}
 /* https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page */
 
-.about-section{
+.about-body{
 
     padding-top: 50%;
 }
@@ -37,6 +45,14 @@
 
 }
 
+.expirience-section {
+
+    height: 100%; 
+    width: 100%; 
+    background-color: black;
+    color: white;
+}
+
 .work-heading{
 
     text-align: center;
@@ -52,7 +68,12 @@
 
 }
 
-.portfolio-heading{
+.portfolio-section {
+
+    height: 100%; 
+    background-color: black;
+}
+.portfolio-heading {
 
     text-align: center;
 }
@@ -113,11 +134,9 @@ a:hover, a:visited, a:link, a:active {
         color: white;
     }
 
-    .svg-align{
+    .svg-object {
 
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        opacity:0.5;
     }
     /*
     https://stackoverflow.com/questions/30526822/bootstrap-how-to-center-align-content-inside-column
@@ -141,6 +160,7 @@ a:hover, a:visited, a:link, a:active {
         background-repeat: no-repeat; 
         background-size: cover; 
         background-position:center;
+        height: 500px;
     }
     
     .contact-section {
@@ -160,3 +180,5 @@ a:hover, a:visited, a:link, a:active {
         padding-top: 50px; 
         padding-bottom: 50px;
     }
+
+   
