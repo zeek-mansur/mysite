@@ -11,12 +11,12 @@
     </head>
 <body>  
   
-    <div class="wrapper">
-            <!--Nav bar-->
-    <header 
+     <!--Nav bar-->
+    <div class="wrapper">          
+<header 
     class="row nav-image" style=" background-image: url('images/pexels-eberhard-grossgasteiger-1421903.jpg');"> 
         <nav>
-                <ul class="nav nav-pills justify-content-center">
+            <ul class="nav nav-pills justify-content-center">
                 <li class="nav-item"> <a class="nav-link" href="#">Home</a></li>
                 <li class="nav-item"> <a class="nav-link" href="#">About</a></li>
                 <li class="nav-item dropdown">
@@ -34,8 +34,8 @@
         </nav>
         <div class="container">
             <div class="content-center">  
-              <div class="header_title">Zulkiful Mansur</div>
-              <p class="header_title" style="font-size: 20px;">Front End Web Developer</p>
+              <div class="header-title">Zulkiful Mansur</div>
+              <p class="header-title" style="font-size: 20px;">Front End Web Developer</p>
               <a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor" target="_blank">Download CV</a>
             
             </div>
@@ -48,7 +48,7 @@
 <section class="about-section">
     <div class="content-center">
         <div class="about-body">
-            <h1 class="about_title">About</h1>
+            <h1 class="about-title">About</h1>
             <p>I am a front end developer recently qualified with a Diploma in Software Development from Code Institute. 
             Presents ability to produce clean, maintainable and re-usable code. 
            Possesses strong Problem Solving & Communication skills with experience in building responsive websites using HTML, CSS, JavaScript.</p>
@@ -97,16 +97,17 @@
         </div> 
         <div class="col-6 col-md-4 d-flex justify-content-center"><svg class="svg-object">
             <rect x="0" y="0" rx = "20" ry= "20" width="100px" height="100px" fill="pink"/>
-        </svg> </div>
-        <div class="col-md-8"> <p><strong>Assistant Engineer, 01/2015 to 10/2015</strong></p>
-            <p><strong><em>Ministry Of Work and Housing Katsina State - Katsina, Katsina</em></strong></p>
-            <p><ul>
-                <li>Followed up with external contractors, project owners and stakeholders to gather information and resolve issues.</li>
-                <li>Used Ansys and AutoCad to draft assemblies, models and technical drawings</li>    
-               </ul>
-            </p>
-        </div> 
-    </div>
+            </svg> 
+        </div>
+             <div class="col-md-8"> <p><strong>Assistant Engineer, 01/2015 to 10/2015</strong></p>
+                <p><strong><em>Ministry Of Work and Housing Katsina State - Katsina, Katsina</em></strong></p>
+                <p><ul>
+                    <li>Followed up with external contractors, project owners and stakeholders to gather information and resolve issues.</li>
+                    <li>Used Ansys and AutoCad to draft assemblies, models and technical drawings</li>    
+                    </ul>
+                </p>
+            </div> 
+        </div>
     </div>
 
     <div class="container">
@@ -200,11 +201,11 @@
 <section class="row contact-section">
     <div class="contact-header" style="background-image: url('images/Webp.net-resizeimage\ \(6\).jpg');" >
             <div class="container">  
-                <div class="content-center"><span class="contact_me">Contact Me</span></div>
+                <div class="content-center"><span class="contact-me">Contact Me</span></div>
             </div>
     </div>
     <div class="col-sm"> 
-        <div class="container contact_inform">
+        <div class="container contact-inform">
                 <h1>Contact Information</h1>
             <div class="card-body">
                 <p class="mb-0"><strong>Phone</strong></p>
@@ -220,32 +221,32 @@
         <div class="container">
             <div class="row justify-content-md-center">
                 <div class="col">
-                <div class="form">
-                <form class="my_form" action="https://formspree.io/f/xnqwbgod"  method="POST">
-                <div class="row">
-                    <div class="col">
-                        <label for="first-name">Name</label>
-                        <input id="first-name" name="name" type="name" class="form-control" placeholder="First name" aria-label="First name" required>
-                    </div> 
-                    <div class="col"> <br>
-                        <input type="name" name="name" class="form-control" placeholder="Last name" aria-label="Last name" required >
+                    <div class="form">
+                    <form class="my_form" action="https://formspree.io/f/xnqwbgod"  method="POST">
+                        <div class="row">
+                        <div class="col">
+                            <label for="first-name">Name</label>
+                            <input id="first-name" name="name" type="name" class="form-control" placeholder="First name" aria-label="First name" required>
+                        </div> 
+                        <div class="col"> <br>
+                            <input type="name" name="name" class="form-control" placeholder="Last name" aria-label="Last name" required >
+                        </div>
+                        </div>  <br>
+                        <div class="form-group">
+                            <label for="input email">Email Address</label>
+                            <input name="email" type="email" class="form-control" required >
+                        </div>
+                        <div class="form-group">
+                            <label for="input password">Subject</label>
+                            <input name="subject" type="text" class="form-control">
+                        </div> <br>
+                        <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div> <br>
+                        <button type="submit" value="Send" class="btn btn-info">Send Message</button>
+                    </form>
                     </div>
-                </div>  <br>
-                    <div class="form-group">
-                        <label for="input email">Email Address</label>
-                        <input name="email" type="email" class="form-control" required >
-                    </div>
-                    <div class="form-group">
-                        <label for="input password">Subject</label>
-                        <input name="subject" type="text" class="form-control">
-                    </div> <br>
-                    <div class="mb-3">
-                    <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                    </div> <br>
-                    <button type="submit" value="Send" class="btn btn-info">Send Message</button>
-                </form>
-                </div>
                 </div>
             </div>
         </div>
@@ -255,7 +256,7 @@
 
             <!--Footer-->
 
-    <footer class="row justify-content-center footer-section">
+<footer class="row justify-content-center footer-section">
         <div class="footer-contacts">
             <div class="container flex-container">
                 <div class="container text-center">
@@ -273,12 +274,12 @@
                         <i class="fab fa-instagram-square fa-2x"></i>
                     </a> <br>
                     <span class="copyright-message" style = color:honeydew > Zulkiful Mansur <br> &copy; 2022 </span>
-                </div>
-                  </div>
+                    </div>
                 </div>
             </div>
-    </footer>
-</div>
+        </div>
+</footer>
+
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>

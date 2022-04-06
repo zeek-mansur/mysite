@@ -6,7 +6,7 @@
     background-position:center; 
     height: 600px;}
 
-.about_title {
+.about-title {
 
     color: white;
     font-family: 'Courier New', Courier, monospace;
@@ -36,7 +36,7 @@
     text-align: center;
 }
 
-.header_title {
+.header-title {
 
     color: rgb(231, 231, 245);
     font-size: 40px;
@@ -78,7 +78,7 @@
     text-align: center;
 }
 
-.contact_me {
+.contact-me {
 
     font-size: 60px;
     color: white;
@@ -128,7 +128,7 @@ a:hover, a:visited, a:link, a:active {
         color: white;
     }
 
-    .contact_inform{
+    .contact-inform{
 
         padding-top: 2cm;
         color: white;
