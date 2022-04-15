@@ -10,7 +10,7 @@
 
 .about-title {
 
-    color: white;
+    color: darkgray;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     
@@ -85,7 +85,7 @@
 .contact {
 
     font-size: 60px;
-    color: white;
+    color: darkgray;
     text-align: center;
     background-position: center;
     margin: auto;
@@ -103,8 +103,19 @@
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
     padding-top: 2cm;
+    color: darkgray;
 }
 
+.h2-heading {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: larger;
+}
+
+.h3-heading{
+
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
 .image {
 
     height: fit-content;
@@ -112,11 +123,11 @@
 
 .portfolio-title{
 
-    margin-left: 20%;
-    color: white;
+    color: darkgray;
     padding-top: 2cm;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bolder;
+    
 
 }
 
@@ -212,3 +223,4 @@ a:hover, a:visited, a:link, a:active {
     color: gray;
   }
 
+  
