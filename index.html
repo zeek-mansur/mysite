@@ -9,43 +9,49 @@
         <link rel="stylesheet" href="css/all.min.css">
         <link rel="stylesheet" href="styles/main.css">
     </head>
-<body>  
-  
+<body data-spy="scroll" data-bs-target="#smoothScroll">  
      <!--Nav bar-->
-    <div class="wrapper">          
-<header 
-    class="row nav-image" style=" background-image: url('images/pexels-eberhard-grossgasteiger-1421903.jpg');"> 
-        <nav>
-            <ul class="nav nav-pills justify-content-center">
-                <li class="nav-item"> <a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"> <a class="nav-link" href="#">About</a></li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">
-                    Expirience
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <li><a class="dropdown-item" href="#">Work Expirience</a></li>
-                        <li><a class="dropdown-item" href="#">Education</a></li>
-                    </ul>
-                    </li>
-                <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
-                <li class="nav-item"><a class="nav-link" href="#">Contact Me</a></li>
-            </ul>     
-        </nav>
-        <div class="container">
-            <div class="content-center">  
-              <div class="header-title">Zulkiful Mansur</div>
-              <p class="header-title" style="font-size: 20px;">Front End Web Developer</p>
-              <a class="btn btn-primary" href="#" data-aos="zoom-in" data-aos-anchor="data-aos-anchor" target="_blank">Download CV</a>
-            
+    <div class="">          
+        <header class="nav-image"> 
+            <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark" id="smoothScroll">
+                <button 
+                    class="navbar-toggler navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#myToggler" aria-controls="myToggler"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                   <span class="navbar-toggler-icon"></span>                  
+                </button>
+               <div class="collapse navbar-collapse justify-content-center" id = "myToggler">
+                <ul class="navbar-nav text-center">
+                    <li class="nav-item"> <a class="nav-link" href="#Home">Home</a></li>
+                    <li class="nav-item"> <a class="nav-link" href="#About">About</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">
+                        Expirience
+                        </a>
+                        <ul class="dropdown-menu dropdown-menu-dark text-center" aria-labelledby="navbarDarkDropdownMenuLink">
+                            <li><a  class="dropdown-item " href="#Work">Work Expirience</a></li>
+                            <li><a  class="dropdown-item " href="#Education">Education</a></li>
+                        </ul>
+                        </li>
+                    <li class="nav-item"><a class="nav-link" href="#Portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#Contact">Contact</a></li>
+                </ul>     
+               </div>
+        
+            </nav>
+            <div class="container" >
+            <div class="content-center" style="padding-top: 30%;">  
+              <div id="Home" class="header-title">Zulkiful Mansur</div>
+              <p class="header-title">Front End Web Developer</p>
+              <a class="btn btn-primary btn-dark" href="file/ZULKIFUL_MANSUR CV.pdf" data-aos="zoom-in" data-aos-anchor="data-aos-anchor" target="_blank">Download CV</a>
             </div>
-        </div>       
+        </header>
     </div>   
-</header>
-<main>
+
+<main data-spy="scroll" data-bs-target="#smoothScroll" data-offset = "0">
             <!--About--> 
     
-<section class="about-section">
+<section id="About" class="about-section">
     <div class="content-center">
         <div class="about-body">
             <h1 class="about-title">About</h1>
@@ -59,9 +65,9 @@
 <!--Expirience--> 
 <section class="expirience-section">
     <div class="container">
-        <h1 class="text-center">Work Expirience</h1>
+        <h1 id="Work" class="text-center font-type">Work Expirience</h1>
     <div class="row justify-content-center">
-        <div class="col-6 col-md-4 d-flex justify-content-center"><svg class="svg-object" >
+        <div class="col-6 col-md-4 d-flex justify-content-center"><svg class="svg-object sc-img" >
             <rect x="0" y="0" rx = "20" ry= "20" width="100px" height="100px" fill="white" />
         </svg> </div>
         <div class="col-md-8"><p><strong>Brand Ambassador, 01/2022 - Date</strong></p>
@@ -73,15 +79,15 @@
                </ul>
             </p>
        </div> 
-        <div class="col-6 col-md-4 d-flex justify-content-center"><svg class="svg-object">
+        <div class="col-6 col-md-4 d-flex justify-content-center"><svg class="svg-object sc-img">
             <rect x="0" y="0" rx = "20" ry= "20" width="100px" height="100px" fill="blue" />
         </svg> </div>
-        <div class="col-md-8"style="padding-top: 0cm;"><p><strong>Returns Processing, 08/2021 - 12/2021</strong></p>
+        <div class="col-md-8"><p><strong>Returns Processing, 08/2021 - 12/2021</strong></p>
             <p><strong><em>Boohoo - Burnley, United Kingdom</em></strong></p>
             <p><ul>
                 <li>Processing of returned items from customers</li>     
         </ul></p></div>
-        <div class="col-6 col-md-4 d-flex justify-content-center" style="padding-top: 1cm;"><svg class="svg-object">
+        <div class="col-6 col-md-4 d-flex justify-content-center" style="padding-top: 1cm;"><svg class="svg-object sc-img">
             <rect x="0" y="0" rx = "20" ry= "20" width="100px" height="100px" fill="violet" />
         </svg> </div>
         <div class="col-md-8" style="padding-top: 1cm;" > <p><strong>Account Manager, Commercial Banking Division 02/2018 to 07/2021</strong></p>
@@ -95,7 +101,7 @@
                </ul>
            </p>
         </div> 
-        <div class="col-6 col-md-4 d-flex justify-content-center"><svg class="svg-object">
+        <div class="col-6 col-md-4 d-flex justify-content-center"><svg class="svg-object sc-img">
             <rect x="0" y="0" rx = "20" ry= "20" width="100px" height="100px" fill="pink"/>
             </svg> 
         </div>
@@ -111,23 +117,23 @@
     </div>
 
     <div class="container">
-            <h1 class="text-center">Education</h1>    
+            <h1 id="Education" class="text-center font-type">Education</h1>    
         <div class="row row justify-content-center">
-        <div class="col-6 col-md-4 d-flex justify-content-center"><svg class="svg-object">
+        <div class="col-6 col-md-4 d-flex justify-content-center"><svg class="svg-object sc-img">
             <rect x="0" y="0" rx = "20" ry= "20" width="100px" height="100px" fill="red" />
         </svg> </div>
         <div class="col-md-8 "> <p><strong>Front End Web Developer</strong></p>
             <p><strong><em>Code Institute Via Learning People, 2022</em> </strong></p>
             </div> 
     
-            <div class="col-6 col-md-4 d-flex justify-content-center"><svg class="svg-object">
+            <div class="col-6 col-md-4 d-flex justify-content-center"><svg class="svg-object sc-img">
                 <rect x="0" y="0" rx = "20" ry= "20" width="100px" height="100px" fill="orange" />
             </svg> </div>
             <div class="col-md-8"> <p><strong>University of Sunderland</strong></p>
                 <p><strong>Beng Mechanical Engineer, earned July 2014 </strong></p>
                 <p><em>Sunderland, UK</em></p>
             </div> 
-                <div class="col-6 col-md-4 d-flex justify-content-center"><svg class="svg-object">
+                <div class="col-6 col-md-4 d-flex justify-content-center"><svg class="svg-object sc-img">
                     <rect x="0" y="0" rx = "20" ry= "20" width="100px" height="100px" fill="cyan" />
                 </svg> </div>
                 <div class="col-md-8 center-block"> <p><strong>Air Force Secondary School Port Harcourt</strong></p>
@@ -144,7 +150,7 @@
     <div class="container">
     <div class="content-center">
     <div class="portfolio-heading">
-        <h1 class="portfolio_title">Portfolio</h1>
+        <h1 id="Portfolio" class=" text center portfolio-title">Portfolio</h1>
     </div>
     </div>
         <div class="tab-content gallery mt-5">
@@ -154,7 +160,7 @@
                         <div class="col-md-6">
                         <div class="cc-porfolio-image img-raised">
                             <a href="#" target="_blank">
-                            <figure><img class="image-fluid" src="images/Project.jpeg" alt="Project One"/>
+                            <figure><img class="image-fluid" src="images/coming soon.jpg" alt="Project One"/>
                                 <figcaption>
                                 <div class="h4">Project One</div>                            
                                 </figcaption>
@@ -163,7 +169,7 @@
                         </div>
                         <div class="cc-porfolio-image img-raised">
                             <a href="#" target="_blank">
-                            <figure><img class="image-fluid" src="images/Project.jpeg" alt="Project Two"/>
+                            <figure><img class="image-fluid" src="images/coming soon pixels.jpg" alt="Project Two"/>
                                 <figcaption>
                                 <div class="h4">Project Two</div>                        
                                 </figcaption>
@@ -174,7 +180,7 @@
                         <div class="col-md-6">
                         <div class="cc-porfolio-image img-raised">
                             <a href="#" target="_blank">
-                            <figure ><img class="image-fluid" src="images/Project.jpeg" alt="Project Three"/>
+                            <figure ><img class="image-fluid" src="images/coming soon2.jpg" alt="Project Three"/>
                                 <figcaption>
                                 <div class="h4">Project Three</div>                             
                                 </figcaption>
@@ -183,7 +189,7 @@
                         </div>
                              <div class="cc-porfolio-image img-raised">
                             <a href="#" target="_blank">
-                            <figure><img class="image-fluid" src="images/Project.jpeg" alt="Project Four"/>
+                            <figure><img class="image-fluid" src="images/coming soon3.jpg" alt="Project Four"/>
                                 <figcaption>
                                 <div class="h4">Project Four</div>
                                 </figcaption>
@@ -198,10 +204,10 @@
 </div>
 </section> 
             <!--Contact Me-->
-<section class="row contact-section">
-    <div class="contact-header" style="background-image: url('images/Webp.net-resizeimage\ \(6\).jpg');" >
+<section id="Contact" class="row contact-section">
+    <div class="contact-header">
             <div class="container">  
-                <div class="content-center"><span class="contact-me">Contact Me</span></div>
+                <div class="content-center"><span id="Contact" class="contact">Contact</span></div>
             </div>
     </div>
     <div class="col-sm"> 
@@ -244,7 +250,7 @@
                         <label for="exampleFormControlTextarea1" class="form-label">Message</label>
                         <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div> <br>
-                        <button type="submit" value="Send" class="btn btn-info">Send Message</button>
+                        <button type="submit" value="Send" class="btn btn-info btn-dark text-light">Send Message</button>
                     </form>
                     </div>
                 </div>
@@ -261,25 +267,28 @@
             <div class="container flex-container">
                 <div class="container text-center">
                     <div class="footer-content">
-                    <a class="cc-github btn btn-link " href="https://github.com/zeek-mansur" target="_blank">
+                    <a class="cc-github btn btn-link icon-cog " href="https://github.com/zeek-mansur" target="_blank">
                         <i class="fab fa-github fa-2x"></i>
                     </a>
-                    <a class="cc-linkedin btn btn-link" href="https://www.linkedin.com/in/zulkiful-mansur-22372a103/" target="_blank">
+                    <a class="cc-linkedin btn btn-link icon-cog" href="https://www.linkedin.com/in/zulkiful-mansur-22372a103/" target="_blank">
                         <i class="fab fa-linkedin fa-2x"></i>
                     </a>
-                    <a class="cc-twitter btn btn-link" href="https://twitter.com/Zeek_Mansur" target="_blank">
+                    <a class="cc-twitter btn btn-link icon-cog" href="https://twitter.com/Zeek_Mansur" target="_blank">
                         <i class="fab fa-twitter fa-2x"></i>
                     </a>
-                    <a class="cc-instagram btn btn-link" href="https://www.instagram.com/mansur_zeek/" target="_blank">
+                    <a class="cc-instagram btn btn-link icon-cog" href="https://www.instagram.com/mansur_zeek/" target="_blank">
                         <i class="fab fa-instagram-square fa-2x"></i>
                     </a> <br>
-                    <span class="copyright-message" style = color:honeydew > Zulkiful Mansur <br> &copy; 2022 </span>
+                    <span class="copyright-message footer-font"> Zulkiful Mansur <br> &copy; 2022 </span>
                     </div>
                 </div>
             </div>
         </div>
 </footer>
 
+<script src="scripts/main.js"></script>
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </body>
 </html>

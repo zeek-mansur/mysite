@@ -1,10 +1,12 @@
 
 .nav-image {
-    background-image: url('images/Webp.net-resizeimage\ \(7\).jpg');
+    background-image: url('../images/pexels-eberhard-grossgasteiger-1421903.jpg');
     background-repeat: no-repeat; 
     background-size: cover; 
     background-position:center; 
-    height: 600px;}
+    height: 600px;
+            }
+
 
 .about-title {
 
@@ -34,14 +36,16 @@
     width: 300px; 
     margin:0 auto;
     text-align: center;
+    
 }
 
 .header-title {
 
     color: rgb(231, 231, 245);
-    font-size: 40px;
+    font-size: 25px;
     font-family: cursive;
     font-weight: bolder;
+    
 
 }
 
@@ -58,7 +62,7 @@
     text-align: center;
 }
 
-.Work_expirience {
+.Work-expirience {
 
     color:black;
     font-size: 30px;
@@ -78,33 +82,41 @@
     text-align: center;
 }
 
-.contact-me {
+.contact {
 
     font-size: 60px;
     color: white;
     text-align: center;
-    vertical-align: middle;
-    text-decoration: none;
     background-position: center;
     margin: auto;
     display: block;
     position: relative;
     margin-top: 50%;
     text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 
 }
 
+.font-type {
+
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    padding-top: 2cm;
+}
 
 .image {
 
     height: fit-content;
 }
 
-.portfolio_title{
+.portfolio-title{
 
     margin-left: 20%;
     color: white;
     padding-top: 2cm;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
 
 }
 
@@ -161,6 +173,7 @@ a:hover, a:visited, a:link, a:active {
         background-size: cover; 
         background-position:center;
         height: 500px;
+        background-image: url('../images/pexels-mark-plötz-2790391.jpg');
     }
     
     .contact-section {
@@ -181,4 +194,21 @@ a:hover, a:visited, a:link, a:active {
         padding-bottom: 50px;
     }
 
-   
+   @media screen and (max-width: 767px) {
+        .sc-img {display: none;}
+   }
+
+   .footer-font {
+
+    color:honeydew;
+
+   }
+
+   .icon-cog  {
+    color: gray;
+  }
+
+  .download-btn  {
+    color: gray;
+  }
+
