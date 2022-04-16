@@ -38,4 +38,57 @@ There is a little difference between some pages on my wireframes and my final we
 
 ## Features
 
+#### index.html
+
+- **Navigation bar** - This is menu contains the navigation links to all pages on my website. This allows user to click the links to navigate through relevant webpage.
+- **Download button** - This allows users to download my CV when button is clicked.
+- **Hamburger button** - The hamburger button appears when the screen size is redcued. Clicking the hamburger button triggers a dropdown overlay menu containing the navigation links to all pages on my website. The user can click the links to navigate to the relevant webpage.
+
+
+#### portfolio.html
+
+- **Portfolio links** - These are links to my existing projects and potential projects in the future. This allows users to navigate to the projects pages by clicking the links.
+
+
+#### contact.html
+
+- **Form with submit button** - Allows users to contact me by completing the form and submitting their details. Informations entered by users will be recieved by me. The was enabled with the help of formspree.
+- **Social media links** - Each link opens a new page with my relevant social media page (GitHub, Twitter, LinkedIn and Instagram). These links make it easy for users to access my social media profiles from one place. The social media profiles load in a new tab, which allows users to then return to the site.
+
+## Technologies Used
+
+- [**Balsamiq**](https://balsamiq.com/)
+    - I used **Balsamiq** to create wireframes for my website before building the actual site.
+- [**HTML5**](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
+    - The project uses **HTML5** to create the basic elements and content of my website.
+- [**CSS3**](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
+    - The project uses **CSS3** to add custom styles to the elements and content of my website.
+- [**Bootstrap v5.0**](https://getbootstrap.com/)
+    - The project uses **Bootstrap v5.0** to add a responsive grid system, prebuilt components, plugins built on jQuery, and Bootstrap styles to my website, before adding my custom styles.
+- [**jQuery**](https://jquery.com)
+    - The project uses **jQuery** to simplify DOM manipulation. This is the standard jQuery that is built with Bootstrap components.
+- [**JavaScript**](https://www.javascript.com/)
+    - The project uses **JavaScript** from Bootstrap which is required to add functionality to some of Bootstrap's components.
+- [**Font Awesome**](https://fontawesome.com/)
+    - The project uses **Font Awesome** for the social media links and the hamburger button on my website.
+- [**Cloud9**](https://c9.io/login)
+    - I've used **Cloud9** as the development environment to write the code for my website.
+- [**Git**](https://git-scm.com/)
+    - I've used **Git** as a version control system to regularly add and commit changes made to project in Cloud9, before pushing them to GitHub.
+- [**GitHub**](https://github.com/)
+    - I've used **GitHub** as a remote repository to push and store the committed changes to my project from Git. I've also used GitHub pages to deploy my website in a live environment.
+
+### Responsive Testing
+
+I used Google Chrome's Development tools to constantly test each change that I made to my website and to ensure that it appeared in the desired way on different screen sizes. I also tested my website on different screen sizes (mobile, tablet and desktop) to ensure it appeared in the desired way on different devices.
+
+### Problems faced
+
+- **Burger icon** - The burger icon wasn't expanding when clicked. The reason for this was the bootstrap cdn link which was not correct. I had to search on youtube for a tutorial in order to correct it to enable it work fine.
+- **Home page image** - The home page image was not fitting to screen and being responsive as I wanted. I had to get help via stack overflow to solve the problem.
+- **Grids** - I initial had issues with my grids as the site breaks whenever I tried to change the sizes of the screen. I had to do some research and use the correct bootstrap classes for each grid I needed.
+- **Nav bar** - My nav bar was not sitting well on top of my home page image. 
+- **Drop down menu** - My dropdown menu on the navigation bar was not working. Thanks to my mentor who helped me figured out that my cdn link for bootstrap was not correct and placed rightly. I had to change the bootstrap cdn link in order to get it working. 
+
+
 
