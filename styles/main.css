@@ -106,6 +106,9 @@
     color: darkgray;
 }
 
+.h2-padding{
+    padding-top: 1cm;
+}
 .h2-heading {
     font-family: 'Courier New', Courier, monospace;
     font-size: larger;
