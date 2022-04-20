@@ -5,8 +5,25 @@
     background-size: cover; 
     background-position:center; 
     height: 600px;
+    
             }
+ .nav-content
+             {
 
+                display: block;
+                width: 100%;
+                text-align: center;
+                margin: 0 auto;
+                padding-top: 250px;
+                /*
+                width: 300px; 
+                margin: auto;
+                text-align: center;
+                position: relative;
+                background-position: center;
+                display: block;
+                padding-top: 25%; */
+            }
 
 .about-title {
 
@@ -24,17 +41,19 @@
     color: white;
     
 }
-/* https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page */
+
 
 .about-body{
 
     padding-top: 50%;
 }
 
+/* https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page */
+
 .content-center {
 
     width: 300px; 
-    margin:0 auto;
+    margin: auto;
     text-align: center;
     
 }
@@ -52,7 +71,6 @@
 .expirience-section {
 
     height: 100%; 
-    width: 100%; 
     background-color: black;
     color: white;
 }
