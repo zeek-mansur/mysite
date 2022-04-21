@@ -90,5 +90,30 @@ I used Google Chrome's Development tools to constantly test each change that I m
 - **Nav bar** - My nav bar was not sitting well on top of my home page image. 
 - **Drop down menu** - My dropdown menu on the navigation bar was not working. Thanks to my mentor who helped me figured out that my cdn link for bootstrap was not correct and placed rightly. I had to change the bootstrap cdn link in order to get it working. 
 
+## Deployment
+
+The hosting platform that I've used for my project is GitHub Pages. To deploy my website to GitHub pages, I used the following steps:
+
+1. Loaded the terminal window in my VS code workspace.
+2. Initialised Git using the `git init` command.
+3. Added all files to the staging area (Git) using the `git add .` command.
+4. Committed the files to Git using the `git commit -m "This is my first commit"` command.
+5. Created a new repository in GitHub called 'mysite'.
+6. Copied the below code from GitHub into the terminal window in my VS work workspace:
+
+    ```git remote add origin https://github.com/zeek-mansur/mysite.git```
+
+    ```git push -u origin master```
+
+7. Entered my GitHub username and password to push the files from Git to GitHub.
+8. Went into 'Settings' on my repository page in GitHub.
+9. Selected the 'master branch' option under the 'GitHub Pages' section.
+10. Ran several regular commits throughout my project.
+
+### Repository Link
+
+Click the link below to run my project in the live environment:
+
+[**Zulkiful Site**](https://zeek-mansur.github.io/mysite/)
 
 
