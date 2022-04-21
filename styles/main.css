@@ -1,10 +1,13 @@
 
 .nav-image {
-    background-image: url('../images/pexels-eberhard-grossgasteiger-1421903.jpg');
-    background-repeat: no-repeat; 
-    background-size: cover; 
-    background-position:center; 
-    height: 600px;
+            background-image: url('../images/pexels-eberhard-grossgasteiger-1421903.jpg');
+            background-repeat: no-repeat; 
+            background-size: cover; 
+            background-position:center; 
+            height: 600px;
+            -webkit-background-size: cover;     
+            -moz-background-size: cover;    
+            -o-background-size: cover;  
     
             }
  .nav-content
@@ -25,223 +28,239 @@
                 padding-top: 25%; */
             }
 
+.download-btn  {
+                color: gray;
+               }
+
 .about-title {
 
-    color: darkgray;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+                color: darkgray;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bolder;
     
 
-}
+            }
 
-.about-section {
+.about-section  {
 
-    height: 600px; 
-    background-color:black;
-    color: white;
+                height: 600px; 
+                background-color:black;
+                color: white;
     
-}
+                }
 
 
-.about-body{
+.about-body {
 
-    padding-top: 50%;
-}
+             padding-top: 50%;
 
-/* https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page */
+            }
+
+/*  https://stackoverflow.com/questions/953918/how-to-align-a-div-to-the-middle-horizontally-width-of-the-page 
+    putting text in the center of a page
+*/
 
 .content-center {
 
-    width: 300px; 
-    margin: auto;
-    text-align: center;
+                width: 300px; 
+                margin: auto;
+                text-align: center;
     
-}
+                }
 
-.header-title {
+.header-title   {
 
-    color: rgb(231, 231, 245);
-    font-size: 25px;
-    font-family: cursive;
-    font-weight: bolder;
-    
+                color: rgb(231, 231, 245);
+                font-size: 25px;
+                font-family: cursive;
+                font-weight: bolder;
 
-}
+                }
 
 .expirience-section {
 
-    height: 100%; 
-    background-color: black;
-    color: white;
-}
+                    height: 100%; 
+                    background-color: black;
+                    color: white;
+                    }
 
-.work-heading{
+.work-heading   {
 
-    text-align: center;
-}
+                text-align: left;
+
+                }
 
 .Work-expirience {
 
-    color:black;
-    font-size: 30px;
-    font-weight: bolder;
-    padding-top: 2cm;
-    color: white;
+                    color:black;
+                    font-size: 30px;
+                    font-weight: bolder;
+                    padding-top: 2cm;
+                    color: white;
 
-}
+                }
 
 .portfolio-section {
 
-    height: 100%; 
-    background-color: black;
-}
+                    height: 100%; 
+                    background-color: black;
+
+                    }
+
 .portfolio-heading {
 
-    text-align: center;
-}
+                    text-align: center;
+                    }
 
-.contact {
+.contact    {
 
-    font-size: 60px;
-    color: darkgray;
-    text-align: center;
-    background-position: center;
-    margin: auto;
-    display: block;
-    position: relative;
-    margin-top: 50%;
-    text-align: center;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+            font-size: 60px;
+            color: darkgray;
+            text-align: center;
+            background-position: center;
+            margin: auto;
+            display: block;
+            position: relative;
+            margin-top: 50%;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
 
-}
+            }
 
-.font-type {
+.font-type  {
 
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
-    padding-top: 2cm;
-    color: darkgray;
-}
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bolder;
+            padding-top: 2cm;
+            color: darkgray;
 
-.h2-padding{
-    padding-top: 1cm;
-}
+            }
+
+.h2-padding {
+            padding-top: 1cm;
+            }
+
 .h2-heading {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: larger;
-}
+            font-family: 'Courier New', Courier, monospace;
+            font-size: larger;
+            }
 
-.h3-heading{
+.h3-heading {
 
-    font-family: 'Courier New', Courier, monospace;
-    font-size: large;
-}
-.image {
+                font-family: 'Courier New', Courier, monospace;
+                font-size: large;
+            }
+.image  {
 
-    height: fit-content;
-}
+        height: fit-content;
 
-.portfolio-title{
+        }
 
-    color: darkgray;
-    padding-top: 2cm;
-    font-family: 'Courier New', Courier, monospace;
-    font-weight: bolder;
+.portfolio-title {
+
+                    color: darkgray;
+                    padding-top: 2cm;
+                    font-family: 'Courier New', Courier, monospace;
+                    font-weight: bolder;
     
+                 }
 
-}
-
-.h4{
+.h4 {
 
     font-family: 'Courier New', Courier, monospace;
     color: #FFFFFF;
-}
-/* https://stackoverflow.com/questions/2789703/remove-blue-underline-from-link */
+
+    }
+
+/* removing the blue thick when link has been clicked https://stackoverflow.com/questions/2789703/remove-blue-underline-from-link */
 a:hover, a:visited, a:link, a:active {
 
-    text-decoration: none!important;
+                                    text-decoration: none!important;
+                                    -webkit-box-shadow: none!important;
+                                    box-shadow: none!important;
 
-    -webkit-box-shadow: none!important;
-    box-shadow: none!important;}
+                                     }
 
-    .form{
+.form   {
 
         padding-top: 2cm;
         padding-bottom: 2cm;
         color: white;
-    }
 
-    .contact-inform{
+        }
 
-        padding-top: 2cm;
-        color: white;
-    }
+.contact-inform {
 
-    .svg-object {
+                    padding-top: 2cm;
+                    color: white;
 
-        opacity:0.5;
-    }
-    /*
-    https://stackoverflow.com/questions/30526822/bootstrap-how-to-center-align-content-inside-column
-    */
-    .center-block {
-        margin-left:auto;
-        margin-right:auto;
-        display:block;
-    
-     }
+                }
+
+.svg-object  {
+
+                opacity:0.5;
+
+             }
+/*
+https://stackoverflow.com/questions/30526822/bootstrap-how-to-center-align-content-inside-column
+*/
+.center-block   {
+                margin-left:auto;
+                margin-right:auto;
+                display:block;
+
+                }
 
 /*
-     http://webdesignerwall.com/tutorials/responsive-design-with-css3-media-queries
-     */
-    .image-fluid {
-        max-width: 100%;
-        height: auto;
-    }
+    http://webdesignerwall.com/tutorials/responsive-design-with-css3-media-queries
+    */
+.image-fluid {
+    max-width: 100%;
+    height: auto;
+}
 
-    .contact-header {
-        background-repeat: no-repeat; 
-        background-size: cover; 
-        background-position:center;
-        height: 500px;
-        background-image: url('../images/pexels-mark-plötz-2790391.jpg');
-    }
-    
-    .contact-section {
-        height: 100%; 
-        background-color: black;
-    }
+.contact-header {
+                    background-repeat: no-repeat; 
+                    background-size: cover; 
+                    background-position:center;
+                    height: 500px;
+                    background-image: url('../images/pexels-mark-plötz-2790391.jpg');
+                }
+
+.contact-section {
+                    height: 100%; 
+                    background-color: black;
+                 }
 
 
-    .footer-section {
+.footer-section {
 
-        height: 100%;
-        background-color:rgb(5, 5, 5);
-    }
+                    height: 100%;
+                    background-color:rgb(5, 5, 5);
+                }
 
-    .footer-content {
+.footer-content {
 
-        padding-top: 50px; 
-        padding-bottom: 50px;
-    }
+                    padding-top: 50px; 
+                    padding-bottom: 50px;
+                }
+/*  https://stackoverflow.com/questions/24416729/hide-image-after-screen-resolution-is-below-600 
+    hiding image or object when the screen size is reduced */
 
-   @media screen and (max-width: 767px) {
-        .sc-img {display: none;}
-   }
+@media screen and (max-width: 767px) {
+                                        .sc-img {display: none;}
+                                    }
 
-   .footer-font {
+.footer-font {
 
-    color:honeydew;
+                color:honeydew;
 
-   }
+            }
 
-   .icon-cog  {
-    color: gray;
-  }
+.icon-cog    {
+                color: gray;
+            }
 
-  .download-btn  {
-    color: gray;
-  }
 
   
