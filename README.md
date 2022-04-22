@@ -1,6 +1,6 @@
 # My Personal online CV & Portfolio 
 
-This is my personal website created for educational purpose, consisting of my resume and portfolio. It lists my skills and projects, and contains links for my GitHub, Twitter, LinkedIn and Instagram profiles.
+This is my personal website created for educational purpose, consisting of my resume and portfolio. It lists my skills and projects, and also contains links for my GitHub, Twitter, LinkedIn and Instagram profiles.
 
 There is also a contact form for recruiters, other coders or customers to get in touch with me if they want to hire me or collaborate.
 
@@ -57,12 +57,13 @@ There is a little difference between some pages on my wireframes and my final we
 
 ## Technologies Used
 
-- [**Balsamiq**](https://balsamiq.com/)
-    - I used **Balsamiq** to create wireframes for my website before building the actual site.
+
 - [**HTML5**](https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5)
     - The project uses **HTML5** to create the basic elements and content of my website.
 - [**CSS3**](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS3)
     - The project uses **CSS3** to add custom styles to the elements and content of my website.
+- [**Balsamiq**](https://balsamiq.com/)
+    - I used **Balsamiq** to create wireframes for my website before building the actual site.
 - [**Bootstrap v5.0**](https://getbootstrap.com/)
     - The project uses **Bootstrap v5.0** to add a responsive grid system, prebuilt components, plugins built on jQuery, and Bootstrap styles to my website, before adding my custom styles.
 - [**jQuery**](https://jquery.com)
@@ -71,8 +72,8 @@ There is a little difference between some pages on my wireframes and my final we
     - The project uses **JavaScript** from Bootstrap which is required to add functionality to some of Bootstrap's components.
 - [**Font Awesome**](https://fontawesome.com/)
     - The project uses **Font Awesome** for the social media links and the hamburger button on my website.
-- [**Cloud9**](https://c9.io/login)
-    - I've used **Cloud9** as the development environment to write the code for my website.
+- [**VS Code**](https://code.visualstudio.com/)
+    - I've used **VS Code** as the development environment to write the code for my website.
 - [**Git**](https://git-scm.com/)
     - I've used **Git** as a version control system to regularly add and commit changes made to project in Cloud9, before pushing them to GitHub.
 - [**GitHub**](https://github.com/)
@@ -88,7 +89,7 @@ I used Google Chrome's Development tools to constantly test each change that I m
 - **Home page image** - The home page image was not fitting to screen and being responsive as I wanted. I had to get help via stack overflow to solve the problem.
 - **Grids** - I initial had issues with my grids as the site breaks whenever I tried to change the sizes of the screen. I had to do some research and use the correct bootstrap classes for each grid I needed.
 - **Nav bar** - My nav bar was not sitting well on top of my home page image. 
-- **Drop down menu** - My dropdown menu on the navigation bar was not working. Thanks to my mentor who helped me figured out that my cdn link for bootstrap was not correct and placed rightly. I had to change the bootstrap cdn link in order to get it working. 
+- **Drop down menu** - My dropdown menu on the navigation bar was not working. Thanks to my mentor Sunny who helped me figured out that my cdn link for bootstrap was not correct and placed rightly. I had to change the bootstrap cdn link in order to get it working. 
 
 ## Deployment
 
@@ -103,7 +104,7 @@ The hosting platform that I've used for my project is GitHub Pages. To deploy my
 
     ```git remote add origin https://github.com/zeek-mansur/mysite.git```
 
-    ```git push -u origin master```
+    ```git push origin master```
 
 7. Entered my GitHub username and password to push the files from Git to GitHub.
 8. Went into 'Settings' on my repository page in GitHub.
