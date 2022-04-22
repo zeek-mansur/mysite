@@ -24,7 +24,8 @@
             }
 
 .download-btn  {
-                color: gray;
+                color: whitesmoke;
+                font-family: 'Courier New', Courier, monospace;
                }
 
 .about-title {
@@ -62,12 +63,21 @@
     
                 }
 
+.name-title   {
+
+                color: whitesmoke;
+                font-size: 30px;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bolder;
+
+                }
+
 .header-title   {
 
-                color: rgb(231, 231, 245);
+                color: whitesmoke;
                 font-size: 25px;
-                font-family: cursive;
-                font-weight: bolder;
+                font-family: 'Courier New', Courier, monospace;
+                font-weight: bold;
 
                 }
 
