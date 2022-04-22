@@ -1,4 +1,6 @@
 
+/*https://stackoverflow.com/questions/54156531/responsive-background-image-in-bootstrap-container
+  This was to enable the header image scale to different screen sizes*/
 .nav-image {
             background-image: url('../images/pexels-eberhard-grossgasteiger-1421903.jpg');
             background-repeat: no-repeat; 
@@ -31,7 +33,6 @@
                 font-family: 'Courier New', Courier, monospace;
                 font-weight: bolder;
     
-
             }
 
 .about-section  {
@@ -239,7 +240,7 @@ https://stackoverflow.com/questions/30526822/bootstrap-how-to-center-align-conte
                     padding-bottom: 50px;
                 }
 /*  https://stackoverflow.com/questions/24416729/hide-image-after-screen-resolution-is-below-600 
-    hiding image or object when the screen size is reduced */
+    hiding image or object when the screen size is reduced to 767px */
 
 @media screen and (max-width: 767px) {
                                         .sc-img {display: none;}
