@@ -24,15 +24,15 @@ I've chosen to keep my website in the way that I have, as I felt it will be easy
 
 Wireframes were drawn using Balsamiq. Two wireframes can be seen for some pages in order to consider how to make my website responsive. The links to the files are below:
 
-- [index.html (xs and sm)](https://github.com/zeek-mansur/web-page-repo/blob/master/wireframes/New%20Wireframe%207.png)
-- [index.html (md and lg)](https://github.com/zeek-mansur/web-page-repo/blob/master/wireframes/New%20Wireframe%201.png)
-- [about.html (md and lg)](https://github.com/zeek-mansur/web-page-repo/blob/master/wireframes/New%20Wireframe%202.png)
-- [experience.html (md and lg)](https://github.com/zeek-mansur/web-page-repo/blob/master/wireframes/New%20Wireframe%203.png)
-- [education.html (md and lg)](https://github.com/zeek-mansur/web-page-repo/blob/master/wireframes/New%20Wireframe%204.png)
-- [portfolio.html (sm and md)](https://github.com/zeek-mansur/web-page-repo/blob/master/wireframes/New%20Wireframe%209.png)
-- [portfolio.html (lg and xl)](https://github.com/zeek-mansur/web-page-repo/blob/master/wireframes/New%20Wireframe%205.png)
-- [contact.html (md and sm)](https://github.com/zeek-mansur/web-page-repo/blob/master/wireframes/New%20Wireframe%208.png)
-- [contact.html (lg and xl)](https://github.com/zeek-mansur/web-page-repo/blob/master/wireframes/New%20Wireframe%206.png)
+- [index.html (xs and sm)](https://github.com/zeek-mansur/web-page-repo/blob/master/static/wireframes/New%20Wireframe%207.png)
+- [index.html (md and lg)](https://github.com/zeek-mansur/web-page-repo/blob/master/static/wireframes/New%20Wireframe%201.png)
+- [about.html (md and lg)](https://github.com/zeek-mansur/web-page-repo/blob/master/static/wireframes/New%20Wireframe%202.png)
+- [experience.html (md and lg)](https://github.com/zeek-mansur/web-page-repo/blob/master/static/wireframes/New%20Wireframe%203.png)
+- [education.html (md and lg)](https://github.com/zeek-mansur/web-page-repo/blob/master/static/wireframes/New%20Wireframe%204.png)
+- [portfolio.html (sm and md)](https://github.com/zeek-mansur/web-page-repo/blob/master/static/wireframes/New%20Wireframe%209.png)
+- [portfolio.html (lg and xl)](https://github.com/zeek-mansur/web-page-repo/blob/master/static/wireframes/New%20Wireframe%205.png)
+- [contact.html (md and sm)](https://github.com/zeek-mansur/web-page-repo/blob/master/static/wireframes/New%20Wireframe%208.png)
+- [contact.html (lg and xl)](https://github.com/zeek-mansur/web-page-repo/blob/master/static/wireframes/New%20Wireframe%206.png)
 
 There is a little difference between some pages on my wireframes and my final website. This was due to visual preferences and feedback received from other users.
 
